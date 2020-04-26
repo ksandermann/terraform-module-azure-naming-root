@@ -30,7 +30,7 @@ locals {
     vm_scaleset_linux           = "SSL"
   }
 
-  #calulcated values
+  #calculated values
   resource_name_prefix = upper(format("%s%s%s", local.organisation, location_abbreviation, local.environment))
 
   resource_basenames = {
