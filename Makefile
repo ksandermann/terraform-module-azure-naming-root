@@ -1,2 +1,2 @@
-include $(MAKEFILES_REPO)/Makefile.terraform_module
+include $(MAKEFILE_REPO)/Makefile.terraform_module
 
