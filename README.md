@@ -1,1 +1,0 @@
-# terraform-module-azure-naming-root
