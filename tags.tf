@@ -3,7 +3,7 @@ locals {
     provisioned_automatically = "true"
     provisioned_by            = "terraform"
     environment               = var.environment
-    organsiation              = var.organisation
+    organisation              = var.organisation
   }
 
 }
