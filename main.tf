@@ -31,7 +31,7 @@ locals {
   }
 
   #calculated values
-  resource_name_prefix = upper(format("%s%s%s", local.organisation, location_abbreviation, local.environment))
+  resource_name_prefix = upper(format("%s%s%s", local.organisation, local.location_abbreviation, local.environment))
 
   resource_basenames = {
     resource_group              = format("%s%s", local.resource_name_prefix, local.resource_abbreviations["resource_group"])
