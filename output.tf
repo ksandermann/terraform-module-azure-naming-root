@@ -38,3 +38,7 @@ output "resource_basenames" {
   value       = local.resource_basenames
 }
 
+output "tags_base" {
+  description = "Base tags for all resources"
+  value       = local.tags_base
+}
