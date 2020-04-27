@@ -33,7 +33,7 @@ output "resource_abbreviations" {
   value       = local.resource_abbreviations
 }
 
-output "resource_names" {
+output "resource_basenames" {
   description = "Base names for all resources"
   value       = local.resource_basenames
 }

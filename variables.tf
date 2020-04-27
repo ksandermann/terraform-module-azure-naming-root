@@ -3,15 +3,12 @@ variable "subscription_id" {
 }
 
 variable "location" {
-  type    = string
-  default = ""
+  type = string
 }
 
 variable "organisation" {
-  type    = string
-  default = ""
+  type = string
 }
 variable "environment" {
-  type    = string
-  default = ""
+  type = string
 }
