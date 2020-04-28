@@ -29,6 +29,7 @@ locals {
     azure_loadbalancer_external = "LBE"
     vm_scaleset_linux           = "SSL"
     ddos_protection_plan        = "DPP"
+    azure_firewall              = "AFW"
   }
 
   #calculated values
@@ -50,5 +51,7 @@ locals {
     azure_loadbalancer_external = format("%s%s", local.resource_name_prefix, local.resource_abbreviations["azure_loadbalancer_external"])
     vm_scaleset_linux           = format("%s%s", local.resource_name_prefix, local.resource_abbreviations["vm_scaleset_linux"])
     ddos_protection_plan        = format("%s%s", local.resource_name_prefix, local.resource_abbreviations["ddos_protection_plan"])
+    azure_firewall              = format("%s%s", local.resource_name_prefix, local.resource_abbreviations["azure_firewall"])
+
   }
 }
